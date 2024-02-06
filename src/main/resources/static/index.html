@@ -1,11 +1,53 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>TODO supply a title</title>
+        <title>GameVortex</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="css/estilos.css" rel="stylesheet" type="text/css"/>
+        <link href="css/menu.css" rel="stylesheet" type="text/css"/>
+        <style>
+            #tituloPrincipal {
+                color: black;
+                font-family: cursive;
+            }
+        </style>
     </head>
     <body>
-        <div>Bienvenidos a mi pagina en la cual hablaremos sobre videojuegos, daremos una explicacion resumia sobre ellos y consejos de los mismos.</div>
+        <header class="header">
+            <nav class="nav">
+                <a href="index.html" class="logo nav-link">GameVortex</a>
+                <ul class="nav-menu">
+                    <li class="nav-menu-item"><a class="nav-menu-link nav-link" href="pagina8.html">&LeftTriangleBar;</a></li>
+                    <li class="nav-menu-item"><a class="nav-menu-link nav-link" href="pagina2.html">&RightTriangleBar;</a> </li>  
+                    <li class="nav-menu-item"><a class="nav-menu-link nav-link" href="pagina7.html">Galeria de videos</a></li>  
+                    <li class="nav-menu-item"><a class="nav-menu-link nav-link" href="formularios.html">Deja tu reseña</a></li>
+                </ul>
+            </nav>
+        </header>
+        <section>
+            <article>
+                <h1 id="tituloPrincipal" style="text-align: center;">GameVortex!</h1>
+                <div style="color:black">
+                    <p "style="text-align: center";> Bienvenidos a mi primer página web, la cual tratará de un espacio en el cual los jugadores puedan discutir sobre sus juegos favoritos, compartir consejos, 
+                        dar sus reseñas de dichos videojuegos.</p>
+                    <p "style="text-align: center;">También contará con algunas fotografías y videos reprensentativas de los videojuegos hablados en nuestra página web, también estará disponible de una sección en
+                        la cual los jugadores pueden aportar sus reseñas sobre los videojuegos.
+                    <div style="margin: 0 auto; width: 50%;"> 
+                        <h2>Video representativo de los videojuegos que se hablarán en esta página.</h2>
+                        <iframe width="1000" height="500"
+                                src="https://www.youtube.com/embed/cBGDDajnXOM?autoplay=1&mute=1"
+                                autoplay="true"
+                                title="YouTube video player" 
+                                frameborder="0" 
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share">
+                        </iframe>
+                    </div>
+                    <footer class="piepagina">
+                        <p>Derechos de autor © 2023. GameVortex.</p>
+                        <p>Contáctanos en info@game_vortex.com.</p>
+                    </footer>
+            </article>
+        </section>
     </body>
 </html>
